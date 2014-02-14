@@ -1,4 +1,15 @@
 exports.utils = require('./lib/utils');
+/**
+ * Raw tag objects.
+ * @type {object}
+ */
+exports.tags = require('./lib/tags');
+
+/**
+ * Raw filter methods.
+ * @type {object}
+ */
+exports.filters = require('./lib/filters');
 
 /**
  * From https://github.com/paularmstrong/swig-extras
